@@ -12,7 +12,7 @@ type InputControlProps = ComponentProps<'input'>
 export const Control = (props: InputControlProps) => {
   return (
     <input
-      className="dark:placeholder:zinc-400 flex-1 border-0 bg-transparent p-0 text-zinc-900 outline-none placeholder:text-zinc-600 dark:text-zinc-100"
+      className="flex-1 border-0 bg-transparent p-0 text-zinc-900 outline-none placeholder:text-zinc-600 dark:text-zinc-100 dark:placeholder-zinc-400"
       {...props}
     />
   )
